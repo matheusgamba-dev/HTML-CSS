@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    /* Para simplificar border siga essa ordem de cima  */
+
+    border: 10px solid darkslategrey;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    /* Para simplificar padding siga a ordem de cima (Sentido horário)
+    Se forem iguais só presica colocar 1 vez
+    Se colocar 2 valores o primeiro vai ser o de cima e o dei baixo e o segundo vai ser dos lados*/
+
+    padding: 10px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+    /* Para simplificar siga essa ordem de cima
+    Se quiser centralizar só colocar nas margens da direita e esquerda(2° e 4° numero) em cima também funciona
+    As mesmas regras do padding servem em margin também*/
+
+    margin: 20px 20px 40px 20px;
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: bisque;
+
+    /* Para simplificar é a mesma coisa dos outros, siga nessa ordem */
+
+    outline: 5px dashed bisque;
+}
+
+/*  Mudar block para inline */
+
+#block {
+    display: inline;
+    background-color: lightgray;
+}
+
+h2 {
+    background-color: lightgray;
+}
+
+a {
+    background-color: lightgray;
+}
+
+#inline {
+    background-color: lightgray;
+    display: block;
+}

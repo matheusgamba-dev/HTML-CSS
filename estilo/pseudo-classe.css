@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+div {
+    display: inline-block;
+    background-color: lightslategray;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+div:hover {
+    background-color: yellow;
+}
+
+/* :hover é quando o mouse passa emcima e acontece oq vc quiser e várias outras funções, só ir pela lógica do nome */
+
+div > p{
+    display: none;
+}
+
+/* > esse sinal significa que o da direita é pai do da esquerda, ou seja, o da esquerda está dentro do da direita e vc comanda o filho*/
+
+div#texto:hover > p {
+    display: block;
+    position: absolute;
+}
+
+/* Position: absolute deixa a posição fixa, sem mecher, já a relative mexe e deixa o texto dentro do quadrado */
+
+div::after {
+    content: ' Oi';
+}
+
+div::before {
+    content: 'Hello ';
+}
+
+/* ::() são pseudo-elementos, como o de cima que usa-se a lógica e ele faz oq vc mandar, nesse caso depois, e antes, mas tem vários outros exemplos que o nome já explica */
+
+#video {
+    width: 450px;
+    height: 315px;
+    margin: 5px 10px 5px 5px;
+}
+
+#bolsonaro {
+    width: 250px;
+    height: 315px;
+    margin: 5px 10px 5px 5px;
+}

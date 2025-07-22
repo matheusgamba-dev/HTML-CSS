@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #16dd585a;
+    font-size: 14px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #0fb747, #044f04);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    padding-top: 40px;
+}
+
+header > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.407);
+}
+
+header > p {
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.381);
+}
+
+nav {
+    text-align: left;
+    padding: 5px 10px;
+    background-color: #044f0423;
+}
+
+nav > a {
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: rgb(16, 192, 16);
+    padding: 5px;
+}
+
+.título {
+    font-family: 'idroid';
+    color: rgb(4, 114, 4);
+}
+
+main {
+    background-color: white;
+    min-width: 270px;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+strong {
+    color: green;
+}
+
+a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+}
+
+.video {
+    background-color: #044f04;
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.subtítulo {
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.167), transparent);
+}
+
+aside {
+    background-color: rgba(10, 175, 76, 0.46);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.234);
+}
+
+aside > h3 {
+    background-color: #1b952fbe;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
