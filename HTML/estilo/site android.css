@@ -11,7 +11,7 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #16dd585a;
+    background-color: #5cdb3c61;
     font-size: 14px;
 }
 
@@ -119,7 +119,7 @@ img {
 }
 
 aside {
-    background-color: rgba(10, 175, 76, 0.46);
+    background-color: rgba(55, 201, 97, 0.46);
     padding: 10px;
     border-radius: 20px;
     box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.234);
