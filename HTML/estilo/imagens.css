@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    background-image: url('../imagens/aviao.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /*Tudo isso pode se resumir numa shorthand, chamada 'backend'.
+    Ordem correta da shorthand:
+    color > image > position > repeat > size* > attachment
+
+    *Na regra diz que o size se coloca nessa ordem, mas não funciona, ent coloca o size dps da shorthand */
+
+    background: black url(../imagens/aviao.jpg) center center no-repeat fixed;
+    background-size: cover;
+    }
+
+    main {
+        background-color: white;
+        max-width: 600px;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 10px;
+        margin: auto;
+        border-radius: 10px;
+    }
