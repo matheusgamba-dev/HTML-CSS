@@ -63,3 +63,20 @@ a {
     background-color: lightgray;
     display: block;
 }
+
+section {
+    background-color: red;
+    position: relative;
+    height: 96vh;
+    padding: 10px;
+}
+
+article {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
